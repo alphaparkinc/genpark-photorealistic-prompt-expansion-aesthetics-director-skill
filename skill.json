@@ -1,0 +1,38 @@
+{
+  "name": "genpark-photorealistic-prompt-expansion-aesthetics-director-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Photorealistic prompt expansion director enriching lighting parameters, focal length acoustics, and composition geometry.",
+  "author": "genpark",
+  "category": "image-generation",
+  "tags": [
+    "midjourney-v6",
+    "prompt-engineering",
+    "photorealism-enhancer",
+    "cinematic-director",
+    "aesthetic-expansion"
+  ],
+  "inputs": {
+    "raw_creative_idea": {
+      "type": "string"
+    },
+    "camera_sensor_profile": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "director_session_id": {
+      "type": "string"
+    },
+    "expanded_cinematic_prompt": {
+      "type": "string"
+    },
+    "lighting_and_volumetrics_score_pct": {
+      "type": "number"
+    },
+    "photorealism_index_gain_pct": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
